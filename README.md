@@ -1,10 +1,6 @@
 # CLVisionChallenge
 
 
-pdflatex report.tex
-
-bibtex report
-
-pdflatex report.tex
-
+make clean
+make
 pdflatex report.tex
